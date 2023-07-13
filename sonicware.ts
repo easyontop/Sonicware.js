@@ -1,5 +1,5 @@
 //=! V E R S I O N !=//
-export const Version : string = "1.0.0";
+export const Version : string = "1.3.0";
 
 //=! C O L O R !=//
 export const RGBtoHEX : Function = require("./src/RGBtoHEX");
