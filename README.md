@@ -17,10 +17,14 @@ npm install sonicware.js
 ## About
 ### Sonicware is a package that provides some classes that old packages may not have it. 
 
+## Documentation
+- `Colors` - ([Click Here][colorsdocs])
+
 ## Links
 - `DiscordServer` - ([Click Here][discordserver])
 - `NpmJS` - ([Click Here][npmpackage])
 - `Help` - ([Click Here][discordserver])
 
 [discordserver]: https://discord.gg/PkmgVaG4vk
+[colorsdocs]: https://github.com/easyontop/sonicware.js/blob/main/docs/Colors.md
 [npmpackage]: https://npmjs.com/package/sonicware.js
