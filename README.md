@@ -1,4 +1,4 @@
-<div align="center" style="background-color:rgb(40, 40, 40);"><br>
+<div align="center"><br>
   <img src="https://raw.githubusercontent.com/easyontop/easyontop.github.io/main/SonicwareV4.png"/>
   <br/>
   <a href="https://www.npmjs.com/package/sonicware.js"><img src="https://img.shields.io/npm/v/sonicwareutils.png"/></a>
