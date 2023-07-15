@@ -14,3 +14,14 @@ const { MessageMenu } = require("sonicware.js");
 // any thing here / command run
 MessageMenu(message, [ /* EMBEDS HERE */ ])
 ```
+
+### ActionRow
+```js
+const { ActionRow } = require("sonicware.js");
+TextChannel.send({
+    components: [new ActionRow().addComponent( /* InteractionObject */).toJSON()]
+})
+```
+
+### Button
+*Normal usage but recommended to use `.toJSON()` at the end*
