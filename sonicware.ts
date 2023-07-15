@@ -6,3 +6,7 @@ export const UuidNull : string = '00000000-0000-0000-0000-000000000000';
 export const MessageMenu : Function = require("./src/MessageMenu");
 export const ActionRow : any = require("./src/ActionRow");
 export const Button : any = require("./src/Button");
+export const ChannelSelectMenu = require("./src/ChannelSelectMenu");
+export const ChannelSelect = require("./src/ChannelSelectMenu");
+export { StringSelect, StringSelect as StringSelectMenuBuilder, StringSelect as StringSelectComponent, StringSelect as StringSelectMenu } from "./src/StringSelect";
+export { TextInput, TextInput as TextInputBuilder, TextInput as TextInputMenu } from "./src/TextInput";

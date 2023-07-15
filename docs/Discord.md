@@ -23,5 +23,5 @@ TextChannel.send({
 })
 ```
 
-### Button
+### Button, ChannelSelect, StringSelect, TextInput
 *Normal usage but recommended to use `.toJSON()` at the end*

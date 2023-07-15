@@ -19,6 +19,7 @@ npm install sonicware.js
 
 ## Documentation
 - `Colors` - ([Click Here][colorsdocs])
+- `Discord` - ([Click Here][dcsc])
 
 ## Links
 - `DiscordServer` - ([Click Here][discordserver])
@@ -27,4 +28,5 @@ npm install sonicware.js
 
 [discordserver]: https://discord.gg/PkmgVaG4vk
 [colorsdocs]: https://github.com/easyontop/sonicware.js/blob/main/docs/Colors.md
+[dcsc]: https://github.com/easyontop/sonicware.js/blob/main/docs/Discord.md
 [npmpackage]: https://npmjs.com/package/sonicware.js
