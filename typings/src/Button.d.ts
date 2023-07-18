@@ -1,6 +1,13 @@
 /// <reference types="node" />
 /**
- * ButtonBuilder for older versions DiscordJS
+ * @name ButtonStyles
+ * @description **Style For DiscordJS Number**
+ */
+export declare const ButtonStyles: any;
+/**
+ * @name Button
+ * @description ButtonBuilder for **older versions DiscordJS**
+ * @class
  */
 export declare class Button {
     type: number;

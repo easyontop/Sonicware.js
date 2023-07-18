@@ -7,10 +7,12 @@ function rgbToHex(r : number, g : number, b : number) : string {
 }
 
 /**
- * Red Green Blue Color to Hex!
+ * @name RGBtoHEX
+ * @description Red Green Blue Color to Hex!
+ * @function
  */
 
-module.exports = (Red: number, Green: number, Blue: number) : string | null => {
+export function RGBtoHEX (Red: number, Green: number, Blue: number) : string | null {
     if(Red > 255 
         || Blue > 255 
         || Green > 255 

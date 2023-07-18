@@ -1,4 +1,8 @@
-const ChannelTypes : any = {
+/**
+ * @name ChannelTypes
+ * @description **Channel Type to Number**
+ */
+export const ChannelTypes : any = {
     guildtext: 0,
     textchannel: 0,
     text: 0,
@@ -29,7 +33,9 @@ const ChannelTypes : any = {
 }
 
 /**
- * ChannelSelectBuilder for older Discordjs versions
+ * @name ChannelSelect
+ * @description ChannelSelectBuilder for older Discordjs versions
+ * @class
  */
 
 export class ChannelSelect {

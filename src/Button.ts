@@ -1,4 +1,8 @@
-const Styles : any = {
+/**
+ * @name ButtonStyles
+ * @description **Style For DiscordJS Number**
+ */
+export const ButtonStyles : any = {
     "link": 5,
     "danger": 4,
     "success": 3,
@@ -7,7 +11,9 @@ const Styles : any = {
 }
 
 /**
- * ButtonBuilder for older versions DiscordJS
+ * @name Button
+ * @description ButtonBuilder for **older versions DiscordJS**
+ * @class
  */
 
 export class Button {
@@ -32,7 +38,7 @@ export class Button {
     }
     setStyle(st : string) {
         if(typeof st == "string") {
-            st = Styles[st.toLowerCase()] || 2;
+            st = ButtonStyles[st.toLowerCase()] || 2;
         };
         this.style = st; // TypeScript thinks that will return string LOL
         return this;

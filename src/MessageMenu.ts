@@ -1,5 +1,7 @@
 /**
- * Button Pages
+ * @name MessageMenu
+ * @description **Page Embed with Buttons**
+ * @function
  */
 
 module.exports = async function(message:any,options:any) {

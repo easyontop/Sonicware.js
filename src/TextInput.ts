@@ -4,7 +4,9 @@ const sty : any = {
 }
 
 /**
- * TextInputBuilder for older discordjs versions
+ * @name TextInput
+ * @description TextInputBuilder for older discordjs versions
+ * @class
  */
 
 export class TextInput {

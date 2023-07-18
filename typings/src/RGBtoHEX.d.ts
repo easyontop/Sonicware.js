@@ -1,2 +1,6 @@
-declare function componentToHex(c: number | string): any;
-declare function rgbToHex(r: number, g: number, b: number): string;
+/**
+ * @name RGBtoHEX
+ * @description Red Green Blue Color to Hex!
+ * @function
+ */
+export declare function RGBtoHEX(Red: number, Green: number, Blue: number): string | null;

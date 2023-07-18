@@ -1,5 +1,7 @@
 /**
- * TextInputBuilder for older discordjs versions
+ * @name TextInput
+ * @description TextInputBuilder for older discordjs versions
+ * @class
  */
 export declare class TextInput {
     constructor();

@@ -1,5 +1,7 @@
 /**
- * A StringSelectMenu Component for older DiscordJS Versions
+ * @name StringSelect
+ * @description A StringSelectMenu Component for older DiscordJS Versions
+ * @class
  */
 export declare class StringSelect {
     constructor();
@@ -28,13 +30,12 @@ export declare class StringSelect {
     min_values: number | null;
 }
 /**
- * StringSelectOptions
+ * @name StringSelectOptions
  * @prop label Label For The String Select Item
  * @prop value Value For The String Select Item
  * @interface
  */
-interface StringSelectOptions {
+export interface StringSelectOptions {
     label: string;
     value: string;
 }
-export {};

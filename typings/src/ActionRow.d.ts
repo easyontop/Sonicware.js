@@ -1,5 +1,7 @@
 /**
- * ActionRowBuilder for much older DiscordJS Versions
+ * @name ActionRow
+ * @description ActionRowBuilder for much older DiscordJS Versions
+ * @class
  */
 export declare class ActionRow {
     type: number;

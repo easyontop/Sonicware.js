@@ -1,11 +1,11 @@
-export declare const RGBtoHEX: Function;
-export declare const HEXtoRGB: Function;
+export declare const RGBtoHEX: any;
+export declare const HEXtoRGB: any, RGB: any;
 export declare const RandomString: Function;
 export declare const UuidNull: string;
 export declare const MessageMenu: Function;
 export declare const ActionRow: any;
-export declare const Button: any;
-export declare const ChannelSelect: any;
-export { StringSelect, StringSelect as StringSelectMenuBuilder, StringSelect as StringSelectComponent, StringSelect as StringSelectMenu } from "./src/StringSelect";
+export declare const Button: any, ButtonStyles: any;
+export declare const ChannelSelect: any, ChannelTypes: any;
+export { StringSelectOptions, StringSelect, StringSelect as StringSelectMenuBuilder, StringSelect as StringSelectComponent, StringSelect as StringSelectMenu } from "./src/StringSelect";
 export { TextInput, TextInput as TextInputBuilder, TextInput as TextInputMenu } from "./src/TextInput";
-export { BoostEvent } from "./src/BoostHandler";
+export { BoostEvent, BoostEventOptions } from "./src/BoostHandler";

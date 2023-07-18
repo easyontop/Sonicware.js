@@ -1,5 +1,12 @@
 /**
- * ChannelSelectBuilder for older Discordjs versions
+ * @name ChannelTypes
+ * @description **Channel Type to Number**
+ */
+export declare const ChannelTypes: any;
+/**
+ * @name ChannelSelect
+ * @description ChannelSelectBuilder for older Discordjs versions
+ * @class
  */
 export declare class ChannelSelect {
     constructor();

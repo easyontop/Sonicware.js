@@ -4,13 +4,27 @@ function hexToRgb(hex : string) {
       r: parseInt(result[1], 16),
       g: parseInt(result[2], 16),
       b: parseInt(result[3], 16)
-    } : null;
+    } as RGB : null;
 }
 
 /**
- * Hex Color To Red Green Blue!
+ * @name RGB
+ * @description Red Green Blue Interface
+ * @interface
  */
 
-module.exports = (Hex : string) : object | null => {
+export interface RGB {
+  r?: number;
+  g?: number;
+  b?: number;
+}
+
+/**
+ * @name HEXtoRGB
+ * @description Hex Color To Red Green Blue!
+ * @function
+ */
+
+export const HEXtoRGB = (Hex : string) : object | null => {
     return hexToRgb(Hex);
 };

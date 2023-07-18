@@ -1,5 +1,7 @@
 /**
- * Random String
+ * @name RandomString
+ * @description Generates Random String
+ * @function
  */
 
 module.exports = (Length : number | null) : string => {
