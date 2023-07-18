@@ -9,3 +9,4 @@ export const { ChannelSelect, ChannelTypes } = require("./src/ChannelSelectMenu"
 export { StringSelectOptions, StringSelect, StringSelect as StringSelectMenuBuilder, StringSelect as StringSelectComponent, StringSelect as StringSelectMenu } from "./src/StringSelect";
 export { TextInput, TextInput as TextInputBuilder, TextInput as TextInputMenu } from "./src/TextInput";
 export { BoostEvent, BoostEventOptions } from "./src/BoostHandler";
+export * from "./src/Utility"
