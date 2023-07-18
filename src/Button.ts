@@ -5,7 +5,12 @@ const Styles : any = {
     "secondary": 2,
     "primary": 1
 }
-module.exports = class Button {
+
+/**
+ * ButtonBuilder for older versions DiscordJS
+ */
+
+export class Button {
     public type : number;
     public style : number | string; 
     public url : any;

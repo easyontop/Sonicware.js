@@ -1,3 +1,6 @@
+/**
+ * A StringSelectMenu Component for older DiscordJS Versions
+ */
 export class StringSelect {
     constructor() {
         this.type = 3;
@@ -23,11 +26,11 @@ export class StringSelect {
         this.min_values = w;
         return this;
     }
-    addOption(w : Options) {
+    addOption(w : StringSelectOptions) {
         this.options.push(w);
         return this;
     }
-    setOptions(w : Options[]) {
+    setOptions(w : StringSelectOptions[]) {
         this.options = w;
         return this;
     }
@@ -43,7 +46,7 @@ export class StringSelect {
         };
     }
     public type : number;
-    public options : Options[] = [];
+    public options : StringSelectOptions[] = [];
     public custom_id: string;
     public disabled : boolean | null;
     public placeholder : string;
@@ -51,7 +54,14 @@ export class StringSelect {
     public min_values : number | null;
 }
 
-interface Options {
+/**
+ * StringSelectOptions
+ * @prop label Label For The String Select Item
+ * @prop value Value For The String Select Item
+ * @interface
+ */
+
+interface StringSelectOptions {
     label: string;
     value: string;
 };

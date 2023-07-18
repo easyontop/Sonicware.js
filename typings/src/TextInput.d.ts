@@ -1,3 +1,6 @@
+/**
+ * TextInputBuilder for older discordjs versions
+ */
 export declare class TextInput {
     constructor();
     setCustomId(e: string): this;

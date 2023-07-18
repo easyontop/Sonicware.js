@@ -1,3 +1,7 @@
+/**
+ * Button Pages
+ */
+
 module.exports = async function(message:any,options:any) {
     let embeds = options.embeds || options.pages || options;
     if(!embeds || !message) throw new Error("func(message, options {embeds[] | MessageEmbed[]})");

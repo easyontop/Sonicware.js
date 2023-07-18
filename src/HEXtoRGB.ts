@@ -6,6 +6,11 @@ function hexToRgb(hex : string) {
       b: parseInt(result[3], 16)
     } : null;
 }
+
+/**
+ * Hex Color To Red Green Blue!
+ */
+
 module.exports = (Hex : string) : object | null => {
     return hexToRgb(Hex);
 };

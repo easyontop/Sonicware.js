@@ -26,8 +26,13 @@ const ChannelTypes : any = {
     studenthub: 14,
     guildforum: 15,
     forum: 15
-  }
-  module.exports = class ChannelSelect {
+}
+
+/**
+ * ChannelSelectBuilder for older Discordjs versions
+ */
+
+export class ChannelSelect {
     constructor() {
       this.type = 8;
       this.channel_types = [];

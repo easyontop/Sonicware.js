@@ -5,6 +5,11 @@ function componentToHex(c : number | string) : any {
 function rgbToHex(r : number, g : number, b : number) : string {
     return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
 }
+
+/**
+ * Red Green Blue Color to Hex!
+ */
+
 module.exports = (Red: number, Green: number, Blue: number) : string | null => {
     if(Red > 255 
         || Blue > 255 

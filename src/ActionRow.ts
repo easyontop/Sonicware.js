@@ -1,4 +1,8 @@
-module.exports = class ActionRow {
+/**
+ * ActionRowBuilder for much older DiscordJS Versions
+ */
+
+export class ActionRow {
     public type : number;
     public components : object[];
     constructor() {

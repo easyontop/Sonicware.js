@@ -1,3 +1,7 @@
+/**
+ * Random String
+ */
+
 module.exports = (Length : number | null) : string => {
     let res : string = "";
     let len = Length || 20;

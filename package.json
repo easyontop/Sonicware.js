@@ -6,7 +6,8 @@
   "types": "./typings/sonicware.d.ts",
   "scripts": {
     "test": "echo Test Command Works",
-    "build": "tsc"
+    "build": "tsc",
+    "tsdoc": "npx typedoc"
   },
   "author": "easyontop._.",
   "license": "ISC",
@@ -15,11 +16,14 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "@mxssfd/typedoc-theme": "^1.1.2",
     "@napi-rs/canvas": "^0.1.41",
     "@types/uuid": "^9.0.2",
     "child_process": "^1.0.2",
     "crypto": "^1.0.1",
+    "events": "^3.3.0",
     "fs": "^0.0.1-security",
-    "satori": "^0.10.1"
+    "satori": "^0.10.1",
+    "typedoc": "^0.24.8"
   }
 }

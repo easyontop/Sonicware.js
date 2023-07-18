@@ -2,6 +2,11 @@ const sty : any = {
     paragraph: 2,
     short: 1
 }
+
+/**
+ * TextInputBuilder for older discordjs versions
+ */
+
 export class TextInput {
     constructor() {
         this.type = 4;
