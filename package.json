@@ -23,6 +23,7 @@
     "crypto": "^1.0.1",
     "events": "^3.3.0",
     "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.12",
     "satori": "^0.10.1",
     "typedoc": "^0.24.8"
   }
