@@ -1011,7 +1011,6 @@ export async function getNPM(pkg : string = "npm") : Promise<any> {
         description: "Package provided can not be found in NPMjs API.",
         color: 0xff0000
     };
-    const downloads = await axios("https://api.npmjs.org/downloads/past/last-week/"+pkg);
     let pkga = data.versions[data['dist-tags'].latest]
     return {
         title: pkga.name,
@@ -1024,11 +1023,6 @@ export async function getNPM(pkg : string = "npm") : Promise<any> {
             {
                 name: "License",
                 value: pkga.license,
-                inline: true
-            },
-            {
-                name: "Downloads",
-                value: downloads.data ? downloads.data.downloads : "0",
                 inline: true
             },
             {
