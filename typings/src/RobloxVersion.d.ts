@@ -1,11 +1,10 @@
 /**
  * **RobloxVersion** : Display Version
  */
-declare class RobloxVersion {
+export declare class RobloxVersion1 {
     mobile: string;
     windows: string;
     mac: string;
     constructor(a1: string, a2: string, a3: string);
 }
-export default function (): Promise<RobloxVersion>;
-export {};
+export declare function RobloxVersion(): Promise<RobloxVersion1>;
