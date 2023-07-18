@@ -9,4 +9,3 @@ export const { ChannelSelect } = require("./src/ChannelSelectMenu");
 export { StringSelect, StringSelect as StringSelectMenuBuilder, StringSelect as StringSelectComponent, StringSelect as StringSelectMenu } from "./src/StringSelect";
 export { TextInput, TextInput as TextInputBuilder, TextInput as TextInputMenu } from "./src/TextInput";
 export { BoostEvent } from "./src/BoostHandler";
-export { RobloxVersion } from "./src/RobloxVersion"
