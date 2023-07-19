@@ -2,6 +2,8 @@
  * https://discord.com/developers/docs/resources/channel#embed-object-embed-structure
  *
  * Length limit: 6000 characters
+ * 
+ * Copied from DiscordAPITypes V10
  */
 // From DiscordJS Api Types V10
 export interface APIEmbed {

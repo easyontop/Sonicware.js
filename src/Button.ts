@@ -36,14 +36,14 @@ export class Button {
         this.custom_id = id;
         return this;
     }
-    setStyle(st : string) {
+    setStyle(st : "PRIMARY" | "SECONDARY" | "LINK" | "SUCCESS" | "DANGER" | number) {
         if(typeof st == "string") {
             st = ButtonStyles[st.toLowerCase()] || 2;
         };
         this.style = st; // TypeScript thinks that will return string LOL
         return this;
     }
-    setEmoji(em : string, et : string) {
+    setEmoji(em : string, et?: string) {
         this.emoji = {
             name: em,
             id: et

@@ -20,8 +20,8 @@ export declare class Button {
     constructor();
     setURL(a1: URL): this;
     setCustomId(id: string): this;
-    setStyle(st: string): this;
-    setEmoji(em: string, et: string): this;
+    setStyle(st: "PRIMARY" | "SECONDARY" | "LINK" | "SUCCESS" | "DANGER" | number): this;
+    setEmoji(em: string, et?: string): this;
     setLabel(lab: string): this;
     setDisabled(b: boolean | null): this;
     toJSON(): {

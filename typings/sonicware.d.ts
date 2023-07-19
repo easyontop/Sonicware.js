@@ -11,3 +11,4 @@ export { BoostEvent, BoostEventOptions } from "./src/BoostHandler";
 export * from "./src/Utility";
 export * from "./errors";
 export * from "./src/DJSApiTypes";
+export * from "./src/rps";
