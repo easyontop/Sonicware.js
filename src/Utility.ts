@@ -1,3 +1,5 @@
+import { SnwError, SnwTypeError } from "../errors";
+
 export const userAgents = [
     "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)",
     "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)",
@@ -969,7 +971,7 @@ export async function getAdvice() : Promise<string> {
         }
     });
     json = json.data;
-    if(!json) throw new Error("Advice API Down");
+    if(!json) throw new SnwError("Advice API Down", "API_SERVICE");
     return json.slip.advice
 }
 
@@ -989,7 +991,7 @@ export async function getFact() : Promise<string> {
         }
     });
     json = json.data;
-    if(!json) throw new Error("Advice API Down");
+    if(!json) throw new SnwError("Advice API Down", "API_SERVICE");
     return json.data
 }
 
@@ -1004,7 +1006,7 @@ export async function getFact() : Promise<string> {
  */
 
 export async function getNPM(pkg : string = "npm") : Promise<any> {
-    if(!pkg) throw new TypeError("Missing Package");
+    if(!pkg) throw new SnwTypeError("Missing Package", "MISSING_ARGUMENTS");
     let { data } = await axios("https://registry.npmjs.org/"+pkg);
     if(!data) return {
         title: "Package Not Found",

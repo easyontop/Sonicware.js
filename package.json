@@ -25,6 +25,7 @@
     "events": "^3.3.0",
     "fs": "^0.0.1-security",
     "node-fetch": "^2.6.12",
+    "quick.db": "^9.1.7",
     "satori": "^0.10.1",
     "typedoc": "^0.24.8"
   }

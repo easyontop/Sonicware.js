@@ -1,3 +1,5 @@
+import { SnwRangeError } from "../errors";
+
 function componentToHex(c : number | string) : any {
     var hex = c.toString(16);
     return hex.length == 1 ? "0" + hex : hex;
@@ -19,6 +21,6 @@ export function RGBtoHEX (Red: number, Green: number, Blue: number) : string | n
         || Red < 0 
         || Green < 0 
         || Blue < 0
-    ) throw new RangeError("Invalid RGB Format: R/G/B must be 0 ~ 255")
+    ) throw new SnwRangeError("Invalid RGB Format: R/G/B must be 0 ~ 255", "COLOR_RANGE")
     return rgbToHex(Red, Green, Blue);
 }

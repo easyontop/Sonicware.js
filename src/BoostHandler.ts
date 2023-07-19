@@ -1,4 +1,5 @@
 import { EventEmitter } from "node:events";
+import { SnwSyntaxError } from "../errors";
 /**
  * @name BoostEventOptions
  * @description Set the limit guilds for BoostEvent
@@ -20,7 +21,7 @@ export class BoostEvent extends EventEmitter {
     public enabled: boolean;
     constructor(client: any, options: BoostEventOptions = {}) {
         super({ captureRejections: true });
-        if(!client) throw new SyntaxError("Expected DiscordJs Client.");
+        if(!client) throw new SnwSyntaxError("Expected DiscordJs Client.", "MISSING_ARGUMENTS");
         this.enabled = true;
         this.options = options;
         client.on("guildMemberUpdate", (oldMember : any, newMember : any) => {

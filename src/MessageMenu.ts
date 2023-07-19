@@ -4,9 +4,11 @@
  * @function
  */
 
+import { SnwTypeError } from "../errors";
+
 module.exports = async function(message:any,options:any) {
     let embeds = options.embeds || options.pages || options;
-    if(!embeds || !message) throw new Error("func(message, options {embeds[] | MessageEmbed[]})");
+    if(!embeds || !message) throw new SnwTypeError("Missing Messages or Embeds", "MISSING_ARGUMENTS");
     const first = {
         custom_id: "first",
         type: 2,

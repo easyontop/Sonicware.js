@@ -10,3 +10,4 @@ export { StringSelectOptions, StringSelect, StringSelect as StringSelectMenuBuil
 export { TextInput, TextInput as TextInputBuilder, TextInput as TextInputMenu } from "./src/TextInput";
 export { BoostEvent, BoostEventOptions } from "./src/BoostHandler";
 export * from "./src/Utility";
+export * from "./errors";
