@@ -1,6 +1,7 @@
 {
     "$schema": "https://typedoc.org/schema.json",
-    "plugin": ["@mxssfd/typedoc-theme"],
+    "plugin": ["@mxssfd/typedoc-theme", "typedoc-plugin-google-ads"],
     "theme": "my-theme",
-    "entryPoints": ["./sonicware.ts"]
+    "entryPoints": ["./sonicware.ts"],
+    "googleAdsId": "3585686377826225"
 }
