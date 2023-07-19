@@ -4,7 +4,7 @@
  * @function
  */
 
-module.exports = (Length : number | null) : string => {
+export const RandomString = (Length : number | null) : string => {
     let res : string = "";
     let len = Length || 20;
     let chars = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890";

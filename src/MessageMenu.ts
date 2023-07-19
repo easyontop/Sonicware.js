@@ -6,7 +6,7 @@
 
 import { SnwTypeError } from "../errors";
 
-module.exports = async function(message:any,options:any) {
+export async function MessageMenu(message:any,options:any) {
     let embeds = options.embeds || options.pages || options;
     if(!embeds || !message) throw new SnwTypeError("Missing Messages or Embeds", "MISSING_ARGUMENTS");
     const first = {
