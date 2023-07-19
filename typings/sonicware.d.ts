@@ -10,3 +10,4 @@ export { TextInput, TextInput as TextInputBuilder, TextInput as TextInputMenu } 
 export { BoostEvent, BoostEventOptions } from "./src/BoostHandler";
 export * from "./src/Utility";
 export * from "./errors";
+export * from "./src/DJSApiTypes";
