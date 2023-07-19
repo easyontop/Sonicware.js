@@ -1,6 +1,6 @@
 {
   "name": "sonicware.js",
-  "version": "5.0.2",
+  "version": "6.0.0",
   "description": "",
   "main": "./dist/sonicware.js",
   "types": "./typings/sonicware.d.ts",
