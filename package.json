@@ -16,7 +16,6 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@mxssfd/typedoc-theme": "^1.1.2",
     "@napi-rs/canvas": "^0.1.41",
     "@types/uuid": "^9.0.2",
     "axios": "^1.4.0",
@@ -27,6 +26,7 @@
     "node-fetch": "^2.6.12",
     "quick.db": "^9.1.7",
     "satori": "^0.10.1",
+    "sonicware-tdt": "^8.0.0",
     "typedoc": "^0.24.8",
     "typedoc-plugin-google-ads": "^1.4.0"
   }

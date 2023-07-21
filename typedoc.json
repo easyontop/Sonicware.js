@@ -1,6 +1,6 @@
 {
     "$schema": "https://typedoc.org/schema.json",
-    "plugin": ["@mxssfd/typedoc-theme"],
-    "theme": "my-theme",
+    "plugin": ["sonicware-tdt"],
+    "theme": "sonicware",
     "entryPoints": ["./sonicware.ts"]
 }
