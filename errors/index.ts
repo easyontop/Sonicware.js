@@ -21,6 +21,7 @@ function MakeError(Base : any) {
  * ```js
  * throw new SnwError("This is an Error", "ERROR01")
  * ```
+ * @class
  */
 export const SnwError = MakeError(Error);
 /**
@@ -32,6 +33,7 @@ export const SnwError = MakeError(Error);
  * ```js
  * throw new SnwTypeError("This is an Error", "ERROR01")
  * ```
+ * @class
  */
 export const SnwTypeError = MakeError(TypeError);
 /**
@@ -43,6 +45,7 @@ export const SnwTypeError = MakeError(TypeError);
  * ```js
  * throw new SnwSyntaxError("This is an Error", "ERROR01")
  * ```
+ * @class
  */
 export const SnwSyntaxError = MakeError(SyntaxError);
 /**
@@ -54,5 +57,6 @@ export const SnwSyntaxError = MakeError(SyntaxError);
  * ```js
  * throw new SnwRangeError("This is an Error", "ERROR01")
  * ```
+ * @class
  */
 export const SnwRangeError = MakeError(RangeError);
