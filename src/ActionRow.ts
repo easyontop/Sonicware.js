@@ -2,6 +2,15 @@
  * @name ActionRow
  * @description ActionRowBuilder for much older DiscordJS Versions
  * @class
+ * @example
+ * ```js
+ * const { ActionRow } = require("sonicware.js");
+ * // ...
+ * message.channel.send({
+ *      components: [new ActionRow().setComponents(/* your components here *\/)],
+ *      content: "\u200b"
+ * })
+ * ```
  */
 
 export class ActionRow {
