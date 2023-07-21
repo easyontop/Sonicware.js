@@ -9,8 +9,13 @@ function rgbToHex(r : number, g : number, b : number) : string {
 }
 
 /**
- * @name RGBtoHEX
- * @description Red Green Blue Color to Hex!
+ * RGBtoHEX
+ * Red Green Blue Color to Hex!
+ * @example
+ * ```js
+ * const {RGBtoHEX} = require("sonicware.js");
+ * console.log(RGBtoHEX(255, 255, 255)) //-> #ffffff
+ * ```
  * @function
  */
 

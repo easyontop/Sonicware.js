@@ -1,6 +1,11 @@
 /**
- * @name RandomString
- * @description Generates Random String
+ * RandomString
+ * Generates Random String
+ * @example
+ * ```js
+ * const {RandomString} = require("sonicware.js");
+ * console.log(RandomString(25));
+ * ```
  * @function
  */
 

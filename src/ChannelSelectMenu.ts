@@ -33,8 +33,14 @@ export const ChannelTypes : any = {
 }
 
 /**
- * @name ChannelSelect
- * @description ChannelSelectBuilder for older Discordjs versions
+ * ChannelSelect
+ * ChannelSelectBuilder for older Discordjs versions
+ * @example
+ * ```js
+ * const { ChannelSelect } = require("sonicware.js");
+ * // ...
+ * new ChannelSelect().addChannelType("FORUM").addChannelType("GUILDTEXT").setCustomId("test")
+ * ```
  * @class
  */
 
@@ -89,4 +95,4 @@ export class ChannelSelect {
     public placeholder? : string;
     public min_values : number = 0;
     public max_values : number = 1;
-  }
+}
