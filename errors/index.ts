@@ -1,4 +1,10 @@
 function MakeError(Base : any) {
+    /**
+     * SonicwareError
+     * 
+     * A error that extends the original base and with code.
+     * @ignore
+     */
     return class SonicwareError extends Base {
         constructor(message : string, code : string) {
             super(message);

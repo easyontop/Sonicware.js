@@ -2,5 +2,6 @@
     "$schema": "https://typedoc.org/schema.json",
     "plugin": ["sonicware-tdt"],
     "theme": "sonicware",
-    "entryPoints": ["./sonicware.ts"]
+    "entryPoints": ["./sonicware.ts"],
+    "cname": "sonicware.js.org"
 }
