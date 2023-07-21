@@ -26,7 +26,7 @@
     "node-fetch": "^2.6.12",
     "quick.db": "^9.1.7",
     "satori": "^0.10.1",
-    "sonicware-tdt": "^9.0.0",
+    "sonicware-tdt": "^9.0.1",
     "typedoc": "^0.24.8",
     "typedoc-plugin-google-ads": "^1.4.0"
   }
