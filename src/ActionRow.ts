@@ -1,7 +1,6 @@
 /**
- * @name ActionRow
- * @description ActionRowBuilder for much older DiscordJS Versions
- * @class
+ * ActionRow
+ * ActionRowBuilder for much older DiscordJS Versions
  * @example
  * ```js
  * const { ActionRow } = require("sonicware.js");
@@ -11,6 +10,7 @@
  *      content: "\u200b"
  * })
  * ```
+ * @class
  */
 
 export class ActionRow {
