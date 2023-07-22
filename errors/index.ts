@@ -1,58 +1,60 @@
-function MakeError(Base : any) {
-    /**
-     * SonicwareError
-     * 
-     * A error that extends the original base and with code.
-     * @ignore
-     */
-    return class SonicwareError extends Base {
-        constructor(message : string, code : string) {
-            super(message);
-            this.name = `Sonicware${super.name} [${code}]`
-        }
-    }
-}
 /**
  * SnwError
- * 
- * SnwError **Extends** Error
+ * Normal Error With Code. >_<
  * @example
  * ```js
  * throw new SnwError("This is an Error", "ERROR01")
  * ```
  * @class
  */
-export const SnwError = MakeError(Error);
+export class SnwError extends Error {
+    constructor(message : string, code : string) {
+        super(message);
+        this.name = `SonicwareError [${code}]`
+    }
+};
 /**
  * SnwTypeError
- * 
- * SnwTypeError **Extends** TypeError
+ * Normal TypeError With Code. >_<
  * @example
  * ```js
  * throw new SnwTypeError("This is an Error", "ERROR01")
  * ```
  * @class
  */
-export const SnwTypeError = MakeError(TypeError);
+export class SnwTypeError extends TypeError {
+    constructor(message : string, code : string) {
+        super(message);
+        this.name = `SonicwareTypeError [${code}]`
+    }
+};
 /**
  * SnwSyntaxError
- * 
- * SnwSyntaxError **Extends** SyntaxError
+ * Normal SyntaxError with code >_<
  * @example
  * ```js
  * throw new SnwSyntaxError("This is an Error", "ERROR01")
  * ```
  * @class
  */
-export const SnwSyntaxError = MakeError(SyntaxError);
+export class SnwSyntaxError extends SyntaxError {
+    constructor(message : string, code : string) {
+        super(message);
+        this.name = `SonicwareSyntaxError [${code}]`
+    }
+};
 /**
  * SnwRangeError
- * 
- * SnwRangeError **Extends** RangeError
+ * Normal RangeError with code >_<
  * @example
  * ```js
  * throw new SnwRangeError("This is an Error", "ERROR01")
  * ```
  * @class
  */
-export const SnwRangeError = MakeError(RangeError);
+export class SnwRangeError extends RangeError {
+    constructor(message : string, code : string) {
+        super(message);
+        this.name = `SonicwareRangeError [${code}]`
+    }
+};
