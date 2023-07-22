@@ -14,8 +14,8 @@ function MakeError(Base : any) {
 }
 /**
  * SnwError
- * @param message Message of the error
- * @param code Code of the error
+ * 
+ * SnwError **Extends** Error
  * @example
  * ```js
  * throw new SnwError("This is an Error", "ERROR01")
@@ -25,9 +25,8 @@ function MakeError(Base : any) {
 export const SnwError = MakeError(Error);
 /**
  * SnwTypeError
- * @extends TypeError
- * @param message Message of the error
- * @param code Code of the error
+ * 
+ * SnwTypeError **Extends** TypeError
  * @example
  * ```js
  * throw new SnwTypeError("This is an Error", "ERROR01")
@@ -37,9 +36,8 @@ export const SnwError = MakeError(Error);
 export const SnwTypeError = MakeError(TypeError);
 /**
  * SnwSyntaxError
- * @extends SyntaxError
- * @param message Message of the error
- * @param code Code of the error
+ * 
+ * SnwSyntaxError **Extends** SyntaxError
  * @example
  * ```js
  * throw new SnwSyntaxError("This is an Error", "ERROR01")
@@ -49,9 +47,8 @@ export const SnwTypeError = MakeError(TypeError);
 export const SnwSyntaxError = MakeError(SyntaxError);
 /**
  * SnwRangeError
- * @extends SyntaxError
- * @param message Message of the error
- * @param code Code of the error
+ * 
+ * SnwRangeError **Extends** RangeError
  * @example
  * ```js
  * throw new SnwRangeError("This is an Error", "ERROR01")
