@@ -13,8 +13,7 @@ function MakeError(Base : any) {
     }
 }
 /**
- * @name SnwError
- * @extends Error
+ * SnwError
  * @param message Message of the error
  * @param code Code of the error
  * @example
@@ -25,7 +24,7 @@ function MakeError(Base : any) {
  */
 export const SnwError = MakeError(Error);
 /**
- * @name SnwTypeError
+ * SnwTypeError
  * @extends TypeError
  * @param message Message of the error
  * @param code Code of the error
@@ -37,7 +36,7 @@ export const SnwError = MakeError(Error);
  */
 export const SnwTypeError = MakeError(TypeError);
 /**
- * @name SnwSyntaxError
+ * SnwSyntaxError
  * @extends SyntaxError
  * @param message Message of the error
  * @param code Code of the error
@@ -49,7 +48,7 @@ export const SnwTypeError = MakeError(TypeError);
  */
 export const SnwSyntaxError = MakeError(SyntaxError);
 /**
- * @name SnwRangeError
+ * SnwRangeError
  * @extends SyntaxError
  * @param message Message of the error
  * @param code Code of the error
