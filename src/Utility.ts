@@ -1039,3 +1039,4 @@ export async function getNPM(pkg : string = "npm") : Promise<any> {
     }
 }
 
+export { version as Version } from "../package.json"
