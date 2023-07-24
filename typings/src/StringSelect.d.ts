@@ -1,6 +1,11 @@
 /**
- * @name StringSelect
- * @description A StringSelectMenu Component for older DiscordJS Versions
+ * StringSelect
+ * A StringSelectMenu Component for older DiscordJS Versions
+ * @example
+ * ```js
+ * const {StringSelect} = require("sonicware.js");
+ * new StringSelect().setCustomId("troll").setPlaceholder("troll me").addOption({label:"test",value:"test"})
+ * ```
  * @class
  */
 export declare class StringSelect {

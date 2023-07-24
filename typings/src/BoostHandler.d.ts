@@ -10,8 +10,15 @@ export interface BoostEventOptions {
     guilds?: string[];
 }
 /**
- * @name BoostEvent
- * @description Emits `boostCreate` when member **boosted** and `boostDelete` when boost **ends**
+ * BoostEvent
+ * Emits `boostCreate` when member **boosted** and `boostDelete` when boost **ends**
+ * @example
+ * ```js
+ * const { BoostEvent } = require("sonicware.js");
+ * client.BoostEvent = new BoostEvent()
+ * client.BoostEvent.on("boostCreate", (member) => {/* ... *\/})
+ * client.BoostEvent.on("boostDelete", (member) => {/* ... *\/})
+ * ```
  * @class
  */
 export declare class BoostEvent extends EventEmitter {

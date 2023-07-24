@@ -5,8 +5,20 @@
  */
 export declare const ButtonStyles: any;
 /**
- * @name Button
- * @description ButtonBuilder for **older versions DiscordJS**
+ * Button
+ * ButtonBuilder for **older versions DiscordJS**
+ * @example
+ * ```js
+ * const { Button } = require("sonicware.js");
+ * // ...
+ * message.channel.sened({
+ *      content: "\u200b",
+ *      components: [{
+ *          type: 1,
+ *          components: [new Button().setStyle("PRIMARY").setCustomId("hey_id").setLabel("Hey Bro!")]
+ *      }]
+ * })
+ * ```
  * @class
  */
 export declare class Button {

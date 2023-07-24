@@ -48,3 +48,4 @@ export declare function getFact(): Promise<string>;
  * @function
  */
 export declare function getNPM(pkg?: string): Promise<any>;
+export { version as Version } from "../package.json";

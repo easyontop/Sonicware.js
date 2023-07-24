@@ -9,8 +9,14 @@ export interface RGB {
     b?: number;
 }
 /**
- * @name HEXtoRGB
- * @description Hex Color To Red Green Blue!
+ * HEXtoRGB
+ * Hex Color To Red Green Blue!
+ * @example
+ * ```js
+ * const {HEXtoRGB} = require("sonicware.js");
+ * //...
+ * console.log(HEXtoRGB("#ffffff")); //-> { r: 255, g: 255, b: 255 }
+ * ```
  * @function
  */
 export declare const HEXtoRGB: (Hex: string) => object | null;

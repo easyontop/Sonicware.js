@@ -1,64 +1,48 @@
 /**
- * @name SnwError
- * @extends Error
- * @param message Message of the error
- * @param code Code of the error
+ * SnwError
+ * Normal Error With Code. >_<
  * @example
  * ```js
  * throw new SnwError("This is an Error", "ERROR01")
  * ```
+ * @class
  */
-export declare const SnwError: {
-    new (message: string, code: string): {
-        [x: string]: any;
-    };
-    [x: string]: any;
-};
+export declare class SnwError extends Error {
+    constructor(message: string, code: string);
+}
 /**
- * @name SnwTypeError
- * @extends TypeError
- * @param message Message of the error
- * @param code Code of the error
+ * SnwTypeError
+ * Normal TypeError With Code. >_<
  * @example
  * ```js
  * throw new SnwTypeError("This is an Error", "ERROR01")
  * ```
+ * @class
  */
-export declare const SnwTypeError: {
-    new (message: string, code: string): {
-        [x: string]: any;
-    };
-    [x: string]: any;
-};
+export declare class SnwTypeError extends TypeError {
+    constructor(message: string, code: string);
+}
 /**
- * @name SnwSyntaxError
- * @extends SyntaxError
- * @param message Message of the error
- * @param code Code of the error
+ * SnwSyntaxError
+ * Normal SyntaxError with code >_<
  * @example
  * ```js
  * throw new SnwSyntaxError("This is an Error", "ERROR01")
  * ```
+ * @class
  */
-export declare const SnwSyntaxError: {
-    new (message: string, code: string): {
-        [x: string]: any;
-    };
-    [x: string]: any;
-};
+export declare class SnwSyntaxError extends SyntaxError {
+    constructor(message: string, code: string);
+}
 /**
- * @name SnwRangeError
- * @extends SyntaxError
- * @param message Message of the error
- * @param code Code of the error
+ * SnwRangeError
+ * Normal RangeError with code >_<
  * @example
  * ```js
  * throw new SnwRangeError("This is an Error", "ERROR01")
  * ```
+ * @class
  */
-export declare const SnwRangeError: {
-    new (message: string, code: string): {
-        [x: string]: any;
-    };
-    [x: string]: any;
-};
+export declare class SnwRangeError extends RangeError {
+    constructor(message: string, code: string);
+}

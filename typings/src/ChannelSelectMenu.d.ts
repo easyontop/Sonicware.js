@@ -4,8 +4,14 @@
  */
 export declare const ChannelTypes: any;
 /**
- * @name ChannelSelect
- * @description ChannelSelectBuilder for older Discordjs versions
+ * ChannelSelect
+ * ChannelSelectBuilder for older Discordjs versions
+ * @example
+ * ```js
+ * const { ChannelSelect } = require("sonicware.js");
+ * // ...
+ * new ChannelSelect().addChannelType("FORUM").addChannelType("GUILDTEXT").setCustomId("test")
+ * ```
  * @class
  */
 export declare class ChannelSelect {
