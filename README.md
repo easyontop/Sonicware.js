@@ -11,11 +11,11 @@
 npm install sonicware.js
 ```
 
-## For Roblox
-<a href="https://github.com/easyontop/Sonicware" target="_blank">Click Here</a>
+## Announcement
+SonicwareJS has dropped support for older discord.js versions.
 
 ## About
-### Sonicware is a package that provides some classes that old packages may not have it. 
+Sonicware is a package that provides some classes that old packages may not have it. 
 
 ## Documentation
 ([Click Here][docs])
